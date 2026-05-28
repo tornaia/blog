@@ -1,0 +1,16 @@
+# Working notes, drafts, and planning documents I keep local-only.
+# Everything under _private/ is for my eyes only and never gets committed.
+_private/
+
+# Per-post draft text - the post.md inside each posts/<date-slug>/ folder.
+# Materials in the same folder (templates, snippets) ARE committed; the post
+# text itself lives on the blog platform, not in the repo.
+posts/**/post.md
+
+# Common OS / editor noise.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
